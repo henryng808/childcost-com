@@ -35,40 +35,51 @@
 
     <main class="max-w-6xl mx-auto px-6 py-20">
         <div class="flex flex-col md:flex-row gap-16">
-            <!-- News Section -->
+            <!-- News Feed -->
             <div class="md:w-2/3">
-                <div class="bg-red-600 text-white px-4 py-1 rounded-full text-xs font-black uppercase tracking-widest inline-block mb-6">Breaking News</div>
-                <h1 class="text-4xl md:text-6xl font-black mb-8 leading-tight">The $300,000 Milestone: Raising a Child in 2026 Hits Record High</h1>
-                <p class="text-xl text-slate-600 mb-10 leading-relaxed font-medium text-justify">New economic data confirms that the cost of raising a child to age 18 in the United States has officially surpassed <strong>$303,418</strong>. Driven by a 12% surge in child care costs and ongoing food inflation, parents are facing a financial landscape that is more challenging than ever before.</p>
-                
-                <div class="prose prose-slate prose-lg max-w-none border-t border-slate-200 pt-10">
-                    <h2 class="text-2xl font-black mb-4">Why is this happening?</h2>
-                    <p class="mb-6 italic text-slate-500">"The numbers don't lie," says chief economist Dr. Sarah Miller. "We are seeing a systemic shift in household expenses where child care is now rivaling mortgage payments in over 40 states."</p>
-                    <p class="mb-6 text-justify uppercase tracking-tight font-semibold text-slate-900">This isn't just about inflation. It's about a fundamental lack of support systems that force families to shoulder the full weight of these economic shifts.</p>
+                <div class="mb-16 border-b border-slate-200 pb-16">
+                    <div class="bg-red-600 text-white px-4 py-1 rounded-full text-xs font-black uppercase tracking-widest inline-block mb-6">Latest Update • May 16, 2026</div>
+                    <h1 class="text-4xl md:text-5xl font-black mb-6 leading-tight">Child Care Prices Now Rival Major Household Expenses</h1>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed font-medium">New data from Child Care Aware® of America reveals a startling trend: child care costs have officially crossed the threshold to become one of the top three monthly expenses for American families, often exceeding rent or mortgage payments.</p>
+                    
+                    <div class="prose prose-slate prose-lg max-w-none">
+                        <p class="mb-6">The report indicates that supply is failing to keep pace with demand, driving prices to "unmanageable" levels in over 40 states. For many middle-income families, the annual cost of child care for two children now exceeds the average annual mortgage payment by nearly 25%.</p>
+                        <p class="mb-10 font-bold text-red-600 uppercase tracking-tight italic">"We are reaching a breaking point where the financial stress is directly impacting parental mental health and family stability," warns advocacy director Linda James.</p>
+                    </div>
+
+                    <!-- Embedded Recommendation -->
+                    <div class="bg-blue-50 border-l-8 border-blue-600 p-8 rounded-r-3xl">
+                        <div class="flex flex-col md:flex-row items-center gap-8">
+                            <img src="https://books.google.com/books/content?id=O0PrEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" class="w-32 h-44 object-contain rounded-lg shadow-lg">
+                            <div>
+                                <h3 class="text-xl font-black text-blue-900 mb-2">Our Recommendation for Financial Stress:</h3>
+                                <p class="text-sm text-blue-800 mb-4 italic">The 5 Principles of Parenting by Dr. Aliza Pressman</p>
+                                <p class="text-xs text-blue-700 mb-6">When external pressures like costs skyrocket, the only thing we can control is our response and our connection to our children. This book provides the emotional framework to stay resilient during financial crises.</p>
+                                <a href="https://www.amazon.com/s?k=The+5+Principles+of+Parenting+Aliza+Pressman&tag=childcost2026-20" target="_blank" class="inline-block bg-blue-600 text-white font-black px-6 py-3 rounded-xl hover:bg-blue-700 transition text-xs">Buy Now on Amazon</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Archived News 1 -->
+                <div class="mb-16 opacity-60 hover:opacity-100 transition">
+                    <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 12, 2026</div>
+                    <h2 class="text-2xl font-black mb-4">The $300,000 Milestone: Raising a Child in 2026 Hits Record High</h2>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">New economic data confirms that the cost of raising a child to age 18 in the United States has officially surpassed $303,418.</p>
+                    <a href="#" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Archived Full Text &rarr;</a>
                 </div>
             </div>
 
-            <!-- Recommendation Section -->
+            <!-- Recommendation Section (Sidebar) -->
             <div class="md:w-1/3">
                 <div class="sticky top-32">
-                    <div class="bg-white border-2 border-blue-500 rounded-[40px] p-8 shadow-2xl overflow-hidden relative">
-                        <div class="absolute -top-10 -right-10 w-32 h-32 bg-blue-50 rounded-full z-0"></div>
+                    <div class="bg-white border-2 border-slate-200 rounded-[40px] p-8 shadow-sm overflow-hidden relative">
                         <div class="relative z-10 text-center">
-                            <span class="text-blue-600 font-bold text-[10px] uppercase tracking-widest block mb-4">Expert Recommendation</span>
-                            <img src="https://sc02.alicdn.com/kf/A63479a79a65c4a198c3c5f57cd10aeddS.png" class="w-48 h-64 object-contain mx-auto mb-6 rounded-lg shadow-md">
+                            <span class="text-slate-400 font-bold text-[10px] uppercase tracking-widest block mb-4">Essential Tool</span>
+                            <img src="https://sc02.alicdn.com/kf/A63479a79a65c4a198c3c5f57cd10aeddS.png" class="w-48 h-64 object-contain mx-auto mb-6 rounded-lg shadow-md grayscale hover:grayscale-0 transition duration-500">
                             <h3 class="text-2xl font-black mb-4 leading-tight">Smart Money Smart Kids</h3>
-                            <p class="text-sm text-slate-500 mb-8 leading-relaxed">Don't let the $300k number paralyze you. Dave Ramsey and Rachel Cruze provide the exact financial roadmap to raise money-smart kids without breaking the bank.</p>
-                            
-                            <div class="bg-blue-50 p-6 rounded-2xl mb-8 text-left">
-                                <h4 class="font-bold text-blue-900 text-xs uppercase mb-3 tracking-wider">How this helps:</h4>
-                                <ul class="text-xs text-blue-800 space-y-2">
-                                    <li class="flex items-start"><span class="mr-2">💰</span> <strong>Budget Mastery:</strong> Strategies for high-cost childcare years.</li>
-                                    <li class="flex items-start"><span class="mr-2">💰</span> <strong>Future Proofing:</strong> College funding without debt.</li>
-                                    <li class="flex items-start"><span class="mr-2">💰</span> <strong>Life Skills:</strong> Teaching kids the value of a dollar early.</li>
-                                </ul>
-                            </div>
-
-                            <a href="https://www.amazon.com/s?k=Smart+Money+Smart+Kids+Dave+Ramsey&tag=childcost2026-20" target="_blank" class="block w-full bg-blue-600 text-white font-black py-4 rounded-xl hover:bg-blue-700 transition shadow-lg">View on Amazon</a>
+                            <p class="text-sm text-slate-500 mb-8 leading-relaxed">Dave Ramsey and Rachel Cruze provide the financial roadmap to raise money-smart kids without breaking the bank.</p>
+                            <a href="https://www.amazon.com/s?k=Smart+Money+Smart+Kids+Dave+Ramsey&tag=childcost2026-20" target="_blank" class="block w-full bg-slate-900 text-white font-black py-4 rounded-xl hover:bg-black transition shadow-lg">View on Amazon</a>
                         </div>
                     </div>
                 </div>
