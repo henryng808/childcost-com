@@ -220,23 +220,23 @@
                 </article>
 
                 <article class="prose prose-slate max-w-none">
-                    <h3 class="text-xl font-bold text-slate-900">3. Fighting Child-Rearing Inflation: 5 Strategies for 2026</h3>
+                    <h3 class="text-xl font-bold text-slate-900">3. The 2026 Child Care Crisis: Inflation Hits 5.2%</h3>
                     <p class="text-slate-600 leading-relaxed mt-4">
-                        With global inflation hovering at 4.2%, the cost of diapers, food, and clothing has doubled in just five years. To stay ahead, financial advisors suggest five key moves: (1) Maximize 529 Plan tax benefits, (2) Utilize HSA funds for medical costs, (3) Buy pre-owned for high-churn items like strollers, (4) Lock in tuition rates early through prepaid plans, and (5) Use digital budgeting tools like ChildCost.com to track real-time deviations from your 18-year plan.
+                        As of May 2026, child care inflation has decoupled from the general CPI, rising at nearly twice the rate of other essential goods. center-based care for infants has spiked by 5.2% nationwide, outpacing wage growth for the third consecutive year. Our latest analysis shows that child care has officially moved from a "major expense" to a "structural barrier" for workforce participation. Parents are encouraged to leverage the "Collaborative Care" models and corporate childcare credits highlighted in our <a href="news.html" class="text-blue-600 font-bold hover:underline">Latest News Dept Report</a>.
                     </p>
                 </article>
 
                 <article class="prose prose-slate max-w-none">
-                    <h3 class="text-xl font-bold text-slate-900">4. The "Hidden Bill": Understanding Education Inflation Trends</h3>
+                    <h3 class="text-xl font-bold text-slate-900">4. Fighting Child-Rearing Inflation: 5 Strategies for 2026</h3>
                     <p class="text-slate-600 leading-relaxed mt-4">
-                        While standard CPI inflation is manageable, education inflation (tuition, fees, and books) has historically outpaced the market by 2-3%. Our 2044 projection shows a 4-year public university degree in the US costing upwards of $280,000. For international students in the UK or Australia, the costs are even steeper due to exchange rate volatility. Starting a dedicated education fund in year one is no longer optional—it's a requirement for financial stability.
+                        With global inflation impacting essential goods, financial advisors suggest five key moves: (1) Maximize 529 Plan tax benefits, (2) Utilize HSA funds for medical costs, (3) Buy pre-owned for high-churn items like strollers, (4) Lock in tuition rates early through prepaid plans, and (5) Use digital budgeting tools like ChildCost.com to track real-time deviations from your 18-year plan.
                     </p>
                 </article>
 
                 <article class="prose prose-slate max-w-none">
-                    <h3 class="text-xl font-bold text-slate-900">5. How Remote Work is Redefining the Parenting Budget</h3>
+                    <h3 class="text-xl font-bold text-slate-900">5. The "Hidden Bill": Understanding Education Inflation Trends</h3>
                     <p class="text-slate-600 leading-relaxed mt-4">
-                        The shift to remote work has provided a unique relief valve for many families. By moving from Tier 1 cities to Tier 2 regional zones, families are saving an average of 15-20% on housing and transportation. However, this often increases the need for high-speed home infrastructure and domestic childcare support. Understanding these trade-offs is crucial when using our global calculator to plan your next 18 years.
+                        While standard CPI inflation is manageable, education inflation (tuition, fees, and books) has historically outpaced the market by 2-3%. Our 2044 projection shows a 4-year public university degree in the US costing upwards of $280,000. Starting a dedicated education fund in year one is no longer optional—it's a requirement for financial stability.
                     </p>
                 </article>
             </div>
@@ -345,8 +345,9 @@
         function updateRecommendations() {
             const card1 = document.getElementById('rec-card-1');
             const card2 = document.getElementById('rec-card-2');
-            const housingRatio = userData.housing / totalCost;
-            const eduPlayRatio = (userData.education + userData.toys) / totalCost;
+            const total = calculateTotal();
+            const housingRatio = (userData.housing * 12 * 18) / total;
+            const eduPlayRatio = ((userData.edu + userData.extra) * 12 * 18) / total;
 
             if (housingRatio > 0.3) {
                 card1.innerHTML = `<h5 class="text-lg font-bold mb-3 relative z-10">Smart Wealth Automation</h5><p class="text-slate-400 text-sm mb-6 relative z-10">High living costs require a smarter money system. Learn to automate your family wealth and beat inflation.</p><a href="https://www.amazon.com/s?k=I+Will+Teach+You+To+Be+Rich+Ramit+Sethi&tag=childcost2026-20" target="_blank" rel="noopener noreferrer" class="inline-block w-full text-center bg-white text-slate-900 font-bold py-3 rounded-xl hover:bg-slate-100 relative z-10">Read on Amazon</a>`;
@@ -364,5 +365,5 @@
     </script>
 </body>
 </html>
-<!-- Last updated: 2026年05月15日 20:36:44 -->
-<!-- Deployment at 2026年05月17日  2:06:12 -->
+<!-- Last updated: 2026-05-17 10:30:00 -->
+<!-- Deployment at 2026-05-17 10:30:00 -->
