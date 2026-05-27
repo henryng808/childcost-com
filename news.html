@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News & Insights | ChildCost - Stay Ahead of the Curve</title>
+    <title>ChildCare News | ChildCost.com - Economic Insights for Parents</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <style>body { font-family: 'Inter', sans-serif; }</style>
 </head>
 <body class="bg-slate-50 text-slate-900 leading-relaxed">
@@ -16,14 +16,20 @@
                 <a href="index.html" class="text-xl font-extrabold tracking-tight">ChildCost<span class="text-blue-600">.com</span></a>
             </div>
             <div class="flex items-center space-x-4">
-                <a href="news.html" class="group relative flex items-center space-x-3 bg-white border-2 border-red-500/20 px-4 py-2 rounded-xl transition-all hover:border-red-500">
-                    <span class="absolute -top-2 -right-2 bg-red-600 text-white text-[8px] font-black px-2 py-0.5 rounded-full animate-pulse">LIVE</span>
+                <a href="news.html" class="group relative flex items-center space-x-3 bg-white border-2 border-red-500/20 px-4 py-2 rounded-xl transition-all border-red-500 shadow-[0_0_15px_rgba(239,68,68,0.15)]">
+                    <span class="absolute -top-2 -right-2 bg-red-600 text-white text-[8px] font-black px-2 py-0.5 rounded-full shadow-[0_0_10px_rgba(239,68,68,0.4)]">LIVE</span>
+                    <svg class="w-5 h-5 text-red-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10l4 4v10a2 2 0 01-2 2z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 2v4h4"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h10M7 16h10"></path>
+                    </svg>
                     <div class="text-left">
                         <div class="text-[9px] font-black uppercase tracking-wider text-slate-900 leading-tight">News</div>
                         <div class="text-[9px] font-black uppercase tracking-wider text-red-600 leading-tight">Dept</div>
                     </div>
                 </a>
-                <a href="blog.html" class="group relative flex items-center space-x-3 bg-white border-2 border-blue-500/20 px-4 py-2 rounded-xl transition-all hover:border-blue-500">
+                <a href="blog.html" class="group relative flex items-center space-x-3 bg-white border-2 border-blue-500/20 px-4 py-2 rounded-xl transition-all hover:border-blue-500 hover:shadow-[0_0_15px_rgba(37,99,235,0.15)]">
+                    <svg class="w-5 h-5 text-slate-700 group-hover:text-blue-600 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                    </svg>
                     <div class="text-left">
                         <div class="text-[9px] font-black uppercase tracking-wider text-slate-900 leading-tight">Expert</div>
                         <div class="text-[9px] font-black uppercase tracking-wider text-blue-600 leading-tight">Blog</div>
@@ -34,10 +40,10 @@
     </nav>
 
     <main class="max-w-6xl mx-auto px-6 py-20">
-        <div class="flex flex-col md:flex-row gap-16">
-            <!-- News Feed -->
+        <div class="flex flex-col md:flex-row gap-12">
+            <!-- Main News Feed -->
             <div class="md:w-2/3">
-                <div class="mb-16 border-b border-slate-200 pb-16">
+                <div class="bg-white border-2 border-slate-200 rounded-[40px] p-8 md:p-12 shadow-sm mb-12">
                     <div class="bg-red-600 text-white px-4 py-1 rounded-full text-xs font-black uppercase tracking-widest inline-block mb-6">Latest Update • May 25, 2026</div>
                     <h1 class="text-4xl md:text-5xl font-black mb-6 leading-tight">The 2026 Childcare Affordability Act: New Federal Subsidies to Roll Out July 1st</h1>
                     <p class="text-lg text-slate-600 mb-8 leading-relaxed font-medium">As of May 25, 2026, the newly passed federal funding bill is set to provide immediate relief for childcare providers, aiming to cap costs for lower-income families at 7% of household income.</p>
@@ -78,83 +84,27 @@
                 </div>
 
                 <!-- Archived News 2 -->
-                <div class="mb-16 opacity-60 hover:opacity-100 transition border-b border-slate-200 pb-16">
+                <div class="mb-16 opacity-60 hover:opacity-100 transition">
                     <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 22, 2026</div>
                     <h2 class="text-2xl font-black mb-4">Global Childcare Market to Hit $275B in 2026 Amidst Soaring Costs</h2>
                     <p class="text-slate-600 text-sm leading-relaxed mb-4">New market reports released today confirm the global childcare sector is entering a period of hyper-inflationary growth, with the US market alone costing families an average of $17,264 annually per child.</p>
                     <a href="blog/global-childcare-market-275b.html" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Full Text &rarr;</a>
                 </div>
 
-                <!-- Archived News 0 -->
-                <div class="mb-16 opacity-60 hover:opacity-100 transition">
-                    <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 23, 2026</div>
-                    <h2 class="text-2xl font-black mb-4">The Staffing Crisis: Why Staff Shortages are Driving Your 2026 Child Care Bill Up by 15%</h2>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-4">New data from the Child Care Workforce Alliance confirms that acute staffing shortages are now the primary driver of cost increases, bypassing general inflation.</p>
-                    <a href="#" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Full Text &rarr;</a>
-                </div>
-
-                <!-- Archived News 0 -->
-                <div class="mb-16 opacity-60 hover:opacity-100 transition">
-                    <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 22, 2026</div>
-                    <h2 class="text-2xl font-black mb-4">Global Childcare Market to Hit $275B in 2026 Amidst Soaring Costs</h2>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-4">New market reports released today confirm the global childcare sector is entering a period of hyper-inflationary growth, with the US market alone costing families an average of $17,264 annually per child.</p>
-                    <a href="#" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Full Text &rarr;</a>
-                </div>
-
-                <!-- Archived News 0 -->
+                <!-- Archived News 3 -->
                 <div class="mb-16 opacity-60 hover:opacity-100 transition">
                     <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 21, 2026</div>
                     <h2 class="text-2xl font-black mb-4">The 2026 Care Inflation Spike: Child Care Costs Outpace Wage Growth by 2x</h2>
                     <p class="text-slate-600 text-sm leading-relaxed mb-4">New data released confirms that the "Care Cliff" is now a global reality, with infant care costs rising at double the rate of wage growth.</p>
-                    <a href="#" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Full Text &rarr;</a>
+                    <a href="blog.html" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Archive &rarr;</a>
                 </div>
 
-                <!-- Archived News 0 -->
-                <div class="mb-16 opacity-60 hover:opacity-100 transition">
+                <!-- Archived News 4 -->
+                <div class="mb-16 opacity-60 hover:opacity-100 transition border-b border-slate-200 pb-16">
                     <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 20, 2026</div>
                     <h2 class="text-2xl font-black mb-4">Hidden Child Care Costs: The 2026 Budget Warning for Parents</h2>
                     <p class="text-slate-600 text-sm leading-relaxed mb-4">New analysis of the federal budget reveals a widening funding gap for early childhood education, threatening to push thousands of families out of the workforce.</p>
-                    <a href="#" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Full Text &rarr;</a>
-                </div>
-
-                <!-- Archived News 0 -->
-                <div class="mb-16 opacity-60 hover:opacity-100 transition">
-                    <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 19, 2026</div>
-                    <h2 class="text-2xl font-black mb-4">The Global Child Care Crisis: Costs Outpacing Inflation by 3x</h2>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-4">New economic reports confirm that child care costs globally are rising three times faster than the general rate of inflation, representing over 25% of net income for single parents.</p>
-                    <a href="#" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Full Text &rarr;</a>
-                </div>
-
-                <!-- Archived News 0 -->
-                <div class="mb-16 opacity-60 hover:opacity-100 transition">
-                    <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 18, 2026</div>
-                    <h2 class="text-2xl font-black mb-4">Child Care Costs Hit 10% of Median Income: The 2026 Affordability Crisis</h2>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-4">National child care prices have reached an average of $13,184/year, consuming 10% of median household income and rising faster than general inflation.</p>
-                    <a href="#" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Full Text &rarr;</a>
-                </div>
-
-                <!-- Archived News 0 -->
-                <div class="mb-16 opacity-60 hover:opacity-100 transition">
-                    <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 17, 2026</div>
-                    <h2 class="text-2xl font-black mb-4">The Silent Tax: Child Care Inflation Hits 5.2%</h2>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-4">New data reveals that child care inflation has decoupled from the general CPI, rising at nearly twice the rate of other essential goods.</p>
-                    <a href="#" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Full Text &rarr;</a>
-                </div>
-
-                <!-- Archived News 1 -->
-                <div class="mb-16 opacity-60 hover:opacity-100 transition">
-                    <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 16, 2026</div>
-                    <h2 class="text-2xl font-black mb-4">Child Care Prices Now Rival Major Household Expenses</h2>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-4">New data from Child Care Aware® of America reveals that child care costs have officially crossed the threshold to become one of the top three monthly expenses for American families.</p>
-                    <a href="#" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Full Text &rarr;</a>
-                </div>
-
-                <!-- Archived News 2 -->
-                <div class="mb-16 opacity-60 hover:opacity-100 transition">
-                    <div class="text-slate-400 font-bold text-[10px] uppercase tracking-widest mb-4">May 12, 2026</div>
-                    <h2 class="text-2xl font-black mb-4">The $300,000 Milestone: Raising a Child in 2026 Hits Record High</h2>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-4">New economic data confirms that the cost of raising a child to age 18 in the United States has officially surpassed $303,418.</p>
-                    <a href="#" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Archived Full Text &rarr;</a>
+                    <a href="blog.html" class="text-red-600 font-bold text-xs uppercase hover:underline">Read Archive &rarr;</a>
                 </div>
             </div>
 
@@ -163,8 +113,8 @@
                 <div class="sticky top-32">
                     <div class="bg-white border-2 border-slate-200 rounded-[40px] p-8 shadow-sm overflow-hidden relative">
                         <div class="relative z-10 text-center">
-                            <span class="text-slate-400 font-bold text-[10px] uppercase tracking-widest block mb-4">Essential Tool</span>
-                             <img src="https://sc02.alicdn.com/kf/A3508a79a65c4a198c3c5f57cd10aeddS.png" class="w-48 h-64 object-contain mx-auto mb-6 rounded-lg shadow-md grayscale hover:grayscale-0 transition duration-500">
+                            <span class="text-slate-400 font-bold text-[10px] uppercase tracking-widest block mb-4">Expert Recommendation</span>
+                             <img src="https://sc02.alicdn.com/kf/A3508a79a65c4a198c3c5f57cd10aeddS.png" class="w-48 h-64 object-contain mx-auto mb-6 rounded-lg shadow-md hover:scale-105 transition duration-500">
                             <h3 class="text-2xl font-black mb-4 leading-tight">The Period and Puberty Parenting Revolution</h3>
                             <p class="text-sm text-slate-500 mb-8 leading-relaxed">Dr. Charis Chambers provides the essential manual for navigating the biological milestones of a modern child with confidence.</p>
                             <a href="https://www.amazon.com/s?k=The+Period+and+Puberty+Parenting+Revolution+Charis+Chambers&tag=childcost2026-20" target="_blank" class="block w-full bg-slate-900 text-white font-black py-4 rounded-xl hover:bg-black transition shadow-lg">View on Amazon</a>
@@ -175,23 +125,7 @@
         </div>
     </main>
 
-    <footer class="bg-slate-900 text-white py-12 px-6 border-t border-slate-800">
-        <div class="max-w-6xl mx-auto text-center">
-            <p class="text-slate-500 text-xs font-bold uppercase tracking-widest mb-4">&copy; 2026 ChildCost Global</p>
-            <p class="text-slate-600 text-xs">As an Amazon Associate, we earn from qualifying purchases.</p>
-        </div>
-    </footer>
-</body>
-</html>
-ounded-xl hover:bg-black transition shadow-lg">View on Amazon</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer class="bg-slate-900 text-white py-12 px-6 border-t border-slate-800">
+    <footer class="bg-slate-900 text-white py-20 px-6 border-t border-slate-800">
         <div class="max-w-6xl mx-auto text-center">
             <p class="text-slate-500 text-xs font-bold uppercase tracking-widest mb-4">&copy; 2026 ChildCost Global</p>
             <p class="text-slate-600 text-xs">As an Amazon Associate, we earn from qualifying purchases.</p>
