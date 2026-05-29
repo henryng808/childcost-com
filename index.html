@@ -46,7 +46,7 @@
                     </svg>
                     <div class="text-left">
                         <div class="text-[9px] font-black uppercase tracking-wider text-slate-900 leading-tight">News</div>
-                        <div class="text-[9px] font-black uppercase tracking-wider text-red-600 leading-tight">May 28</div>
+                        <div class="text-[9px] font-black uppercase tracking-wider text-red-600 leading-tight">May 29</div>
                     </div>
                 </a>
                 <a href="blog.html" class="group relative flex items-center space-x-3 bg-white border-2 border-blue-500/20 px-4 py-2 rounded-xl transition-all hover:border-blue-500 hover:shadow-[0_0_15px_rgba(37,99,235,0.15)]">
@@ -88,7 +88,7 @@
         </div>
         <div class="max-w-4xl mx-auto text-center relative z-10">
             <div class="inline-block bg-blue-600/20 text-blue-400 text-[10px] font-black uppercase tracking-[0.2em] px-4 py-1.5 rounded-full border border-blue-500/30 mb-8 animate-bounce">
-                Updated for May 28, 2026
+                Updated for May 29, 2026
             </div>
             <h1 class="text-5xl md:text-7xl font-black mb-8 leading-[1.1] tracking-tight">
                 How Much Does it Cost to <span class="text-blue-500">Raise a Child?</span>
@@ -250,6 +250,14 @@
     </main>
 
     <script>
+        // Global Image Fallback Mechanism
+        document.addEventListener('error', function (event) {
+            if (event.target.tagName.toLowerCase() === 'img') {
+                event.target.src = 'https://sc02.alicdn.com/kf/A3508a79a65c4a198c3c5f57cd10aeddS.png'; // Clean Placeholder
+                event.target.style.opacity = '0.5';
+            }
+        }, true);
+
         const categories = [
             { id: 'country', label: 'Country', title: 'Select Region', desc: 'Calibration for currency symbols and national cost indexes.', presets: [{ n: 'United States', v: 'US', sym: '$' }, { n: 'United Kingdom', v: 'UK', sym: '£' }, { n: 'European Union', v: 'EU', sym: '€' }, { n: 'Hong Kong', v: 'HK', sym: 'HK$' }, { n: 'Canada', v: 'CA', sym: 'C$' }, { n: 'Australia', v: 'AU', sym: 'A$' }], isLocation: true },
             { id: 'state', label: 'State/Prov', title: 'Regional Zone', desc: 'Secondary calibration for local cost-of-living premiums.', presets: [{ n: 'Tier 1 (High Cost)', v: 1.4 }, { n: 'Tier 2 (Average)', v: 1.0 }, { n: 'Tier 3 (Economy)', v: 0.7 }], isConditional: (data) => data.country === 'US' || data.country === 'CA' || data.country === 'UK' },
